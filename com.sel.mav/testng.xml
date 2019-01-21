@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test" parallel="classes">
     <classes>
       <class name="com.sel.mav.First"/>
-      <class name="com.sel.mav.Second"/>
+<!--       <class name="com.sel.mav.Second"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

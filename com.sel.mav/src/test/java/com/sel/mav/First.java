@@ -1,5 +1,7 @@
 package com.sel.mav;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -38,6 +40,16 @@ public class First {
 		System.out.println(ele.getAttribute("value"));
 	    String title = driver.getTitle();
 	    System.out.println(title);
+	}
+	@Test
+	public void sy(){
+		System.out.println("assert complete");
+	}
+	
+	@Test
+	public void asser_a(){
+		String a = "a";
+		System.out.println(a);
 	}
 	@AfterClass
 	public void after(){

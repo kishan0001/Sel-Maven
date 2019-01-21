@@ -26,10 +26,12 @@ public class Second {
 		driver.findElement(By.xpath("//*[@id='uh-signin']")).click();
 		driver.findElement(By.xpath("//*[@id='login-signin']")).click();
 	    //Thread.sleep(5000);
+		String num;
 	    String err_text=driver.findElement(By.xpath("//p[@class='row error'][@role='alert']")).getAttribute("innerHTML");
 	    System.out.println(err_text);
 		Assert.assertTrue(err_text.contains("email"));
 		System.out.println("it does");
+		
 	}
 	@AfterClass
 	public void after(){
